@@ -26,6 +26,9 @@ gem "stimulus-rails"
 gem "bootstrap", "~> 5.2"
 gem "simple_form"
 gem "sassc-rails"
+
+gem 'nokogiri', '~> 1.15.0' # Compatible with Heroku's RubyGems
+gem 'ffi', '~> 1.15.5' 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
